@@ -27,6 +27,8 @@ nav{
 
 main {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 ul {
     list-style-type:none;
@@ -61,7 +63,7 @@ li a:hover, li a:focus{
 }
 
 .box{
-    column-count: 3;
+    column-count: 4;
     column-width: 100px;
     background-color:#50727B;
     padding: 1rem;
