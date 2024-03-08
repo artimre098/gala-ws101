@@ -9,19 +9,19 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #78A083;
 }
-.header{
-    display: flow-root;
+
+
+nav{
+    overflow: auto;
     padding: 1rem;
     background-color:#35374B;
     margin:0;
 }
-.header h2{
+nav h2{
     float: left;
-    
 }
-
-nav{
-    overflow: auto;
+nav ul{
+    float: right;
 }
 
 
@@ -53,8 +53,8 @@ li a:hover, li a:focus{
 }
 
 .block{
-    width:150px;
-    height: 150px;
+    width:100px;
+    height: 100px;
     background-color: black;
     color:whitesmoke;
     padding: 1rem;
@@ -65,11 +65,14 @@ li a:hover, li a:focus{
 .box{
     column-count: 4;
     column-width: 100px;
-    background-color:#50727B;
+    
     padding: 1rem;
 }
 .box section{
     overflow: auto;
+}
+.box section:hover{
+    background-color:#50727B;
 }
 .left{
     float:left;
@@ -91,7 +94,9 @@ section{
     border: 2px dashed #78A083;
     display: flow-root;
 }
-
+.second{
+    justify-content: center;
+}
 .columns{
     font-size: 2rem;
     column-count: 3;
